@@ -7,7 +7,7 @@ const CommunitySection = () => {
   return (
     <div className="container mx-auto ">
       <div>
-        <h1 className="text-2xl font-bold">Community</h1>
+        <h1 className="text-xl font-bold">Community</h1>
       </div>
       <div className="mt-4 flex items-center border-b py-2">
   {/* Span Tags */}
