@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FaPenToSquare } from "react-icons/fa6";
-import { AiFillLike, AiFillComment } from "react-icons/ai";
+
 
 const CommunitySection = () => {
   return (
