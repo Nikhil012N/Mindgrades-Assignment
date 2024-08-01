@@ -1,15 +1,14 @@
 import Image from "next/image";
 import React from "react";
+import imageKI from "@/assets/keepup.png"
 export default function TagSection() {
     const tags = ['Interview', 'Strategy', 'Economics', 'Sociology', 'Indian', 'History', 'Strategy', 'Sociology', 'Polity', 'Indian', 'History', 'Strategy', 'Sociology', 'Polity', 'Indian', 'History', 'Strategy', 'Sociology', 'Polity'];
   
     return (<>
         <div className="w-full h-auto py-4 relative">
         <Image
-          src="/assets/keepup.png
-          " // Replace with your image path
+          src={imageKI}
           alt="Responsive"
-          layout="responsive"
           width={1200}
           height={400}
         />
